@@ -1,0 +1,90 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+div
+{
+    height: 200px;
+    width: 100%;
+}
+
+#uno
+{
+    background-color: blue;
+}
+
+#dos
+{
+    background-color: blueviolet;
+}
+
+#tres
+{
+    background-color: coral;
+}
+/*
+#uno > p
+{
+    color: chocolate;
+}
+
+section ~ p
+{
+    color: blue;
+}
+
+div > p
+{
+    color: yellow;
+}
+*/
+/*#tres:hover
+{
+    background-color: lightcoral;
+    font-size: 24px;
+}
+
+p:hover
+{
+    background-color: darkkhaki;
+}  
+
+#tres p
+{
+    color: chartreuse;
+}
+
+/*div p
+{ 
+    color: aquamarine;
+}
+*/
+
+p:first-child
+{
+    color: blue
+}
+
+a:link
+{
+    color: red;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+a:hover
+{
+    color: green;
+}
+
+a:visited
+{
+    color: rgb(166, 196, 34);
+}
+
+a:active
+{
+    color: blueviolet;
+}

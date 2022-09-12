@@ -1,0 +1,30 @@
+.clasecolorh1
+{
+    color: blue;
+}
+
+h1
+{
+color: red;
+text-transform: uppercase;
+}
+
+#colorh1
+{
+    color: green;
+}
+
+body
+{
+    background-color: lightgray;
+   
+    background-image: url(../img/imagen.jpg)
+}
+
+.textop
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 18px;
+    word-spacing: 10px;
+    color: brown;
+}

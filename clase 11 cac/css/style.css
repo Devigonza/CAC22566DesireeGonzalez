@@ -1,0 +1,76 @@
+
+.container
+{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#uno,#dos,#tres
+{
+    width: 320px;
+    height: 510px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #999;
+}
+
+#dos
+{
+    align-self: center;
+
+}
+
+img
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: red solid 10px;
+}
+
+p
+{
+    padding: 10px;
+    text-align: justify;
+
+}
+/*
+.botonRojo
+{
+    background-color: red;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 32px;
+    margin-left: 20px;
+    color: white;
+}
+.botonVerde
+{
+    background-color: green;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 32px;
+    margin-left: 15px;
+    color: white;
+}
+*/
+.botonRojo:hover
+{
+   background-color: coral;
+   color: blueviolet;
+}
+
+.botonVerde:hover
+{
+    background-color: lightgreen;
+    color: white;
+}
+
+

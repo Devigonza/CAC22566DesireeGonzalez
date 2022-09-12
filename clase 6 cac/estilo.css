@@ -1,0 +1,11 @@
+h1{color: red;}
+h2{color: blue;}
+
+body{
+    background-color: violet; color: aqua;
+}
+
+fieldset{
+    background-color: gray;
+}
+input{color: red;}
