@@ -1,0 +1,25 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+#contenedor
+{
+    width: 70%;
+    height: 700px;
+    margin: auto;
+}
+/*
+body
+{
+    background-color: gray;
+}
+*/
+
+#nav11
+{
+    background-color: rgba(0,0,0,0.2);
+}
+
