@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <script>
+            var nombres=["Nico","Juli","Damian","Cecilia"];
+
+            //metodo toString()
+            console.log("metodo toString");
+            var cadena=nombres.toString();
+            console.log("Texto:" +cadena);
+            console.log("--------------");
+
+            //metodo push
+            console.log("Metodo Push");
+
+            nombres.push("pedro");
+            nombres.push("juana");
+
+            for (i=0;i<nombres.length;i++)
+            {
+                console.log("Nombre ["+i+"] -->"+nombres[i]);
+            }
+            console.log("--------------");
+
+            //metodo pop
+            console.log("Metodo Pop");
+            nombres.pop();
+            nombres.pop();
+            for (i=0;i<nombres.length;i++)
+            {
+                console.log("Nombre ["+i+"] -->"+nombres[i]);
+            }
+            console.log("--------------");
+
+            
+
+
+
+
+        </script>
+
+    </body>
+</html>
